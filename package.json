@@ -1,14 +1,11 @@
 {
-  "name": "@Croisade/eslint-config-node",
+  "name": "@croisade/eslint-config-node",
   "version": "1.0.1",
   "description": "Custom ESLint config rules for Node apps. ",
   "main": "./index.js",
   "author": "Jamal Gardiner",
   "license": "MIT",
-  "repository": "https://github.com/Croisade/eslint-config-node",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
+  "repository": "https://github.com/croisade/eslint-config-node",
   "dependencies": {
     "babel-eslint": "^10.1.0",
     "eslint-config-airbnb-base": "^14.2.0",
