@@ -1,17 +1,17 @@
 {
-  "name": "eslint-config-node",
+  "name": "@Croisade/eslint-config-node",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "description": "Custom ESLint config rules for Node apps. ",
+  "main": "./index.js",
+  "author": "Jamal Gardiner",
   "license": "ISC",
   "dependencies": {
     "eslint": "^7.4.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-import-resolver-babel-module": "^5.1.2",
     "eslint-plugin-import": "^2.22.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=6"
   }
 }
