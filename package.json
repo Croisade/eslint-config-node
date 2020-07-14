@@ -5,6 +5,7 @@
   "main": "./index.js",
   "author": "Jamal Gardiner",
   "license": "ISC",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "dependencies": {
     "eslint": "^7.4.0",
     "eslint-config-airbnb-base": "^14.2.0",
